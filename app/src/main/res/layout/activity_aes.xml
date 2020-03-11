@@ -113,6 +113,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="30dp"
                 android:text="PT"
+                android:textColor="#707070"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -137,6 +138,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="21dp"
                 android:text="Key"
+                android:textColor="#707070"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -161,6 +163,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="21dp"
                 android:text="IV"
+                android:textColor="#707070"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -185,6 +188,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="21dp"
                 android:text="openSSL output"
+                android:textColor="#707070"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -209,6 +213,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="21dp"
                 android:text="DALPU3 output"
+                android:textColor="#707070"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/initialVector" />
@@ -226,7 +231,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
             <ImageButton
-                android:id="@+id/gidRead"
+                android:id="@+id/ecdhEnter"
                 android:layout_width="145dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="30dp"
@@ -239,7 +244,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/cypherText" />
 
             <ImageButton
-                android:id="@+id/trngClear"
+                android:id="@+id/ecdsaClear"
                 android:layout_width="145dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="24dp"
@@ -257,13 +262,12 @@
                 android:layout_height="2dp"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="30dp"
                 android:background="@android:color/darker_gray"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/gidRead" />
+                app:layout_constraintTop_toBottomOf="@+id/ecdhEnter" />
 
             <TextView
                 android:id="@+id/textView40"
@@ -272,6 +276,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="20dp"
                 android:text="AES-256 Explain"
+                android:textColor="#707070"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view2" />

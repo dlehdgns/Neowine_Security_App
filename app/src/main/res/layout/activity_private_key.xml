@@ -98,7 +98,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/prvOutput" />
 
             <ImageButton
-                android:id="@+id/trngClear"
+                android:id="@+id/ecdsaClear"
                 android:layout_width="145dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="24dp"
@@ -120,7 +120,6 @@
                 android:layout_marginEnd="30dp"
                 android:background="@android:color/darker_gray"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/serialEnter" />
 
